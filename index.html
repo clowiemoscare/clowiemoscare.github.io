@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clowie Moscare — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">CM</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-content fade-up">
+      <div class="hero-photo">
+        <img src="profile.jpg" alt="Clowie Moscare" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="photo-initials">CM</div>
+      </div>
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Clowie Moscare</h1>
+      <h2 class="hero-title">Support Analyst &amp; Full-Stack Developer</h2>
+      <p class="hero-tagline">
+        Building reliable systems, solving complex problems, and bridging the gap between engineering and operations — based in Chicago, IL.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-links">
+        <a href="https://github.com/clowiemoscare" target="_blank" rel="noopener" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://linkedin.com/in/clowie-moscare" target="_blank" rel="noopener" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title fade-up">About Me</h2>
+      <div class="about-grid fade-up">
+        <div class="about-text">
+          <p>
+            I'm a Computer Science graduate from Lewis University (May 2025) and currently working as a <strong>KeepStock Support Analyst at Grainger</strong>, where I support enterprise inventory management systems, troubleshoot backend services and APIs, and resolve production incidents using log analysis, SQL queries, and Datadog.
+          </p>
+          <p>
+            My background spans .NET/C# backend development, React front-end applications, mobile development with React Native, and data analytics. I'm passionate about bridging the gap between development and operations, and I actively leverage AI-assisted tools like GitHub Copilot, ChatGPT, and Claude to accelerate my workflow.
+          </p>
+          <p>
+            Outside of code, I'm fluent in both English and Tagalog, and I bring the same high-energy customer focus from years of service work into every technical role I take on.
+          </p>
+        </div>
+        <div class="about-facts">
+          <div class="fact-item">
+            <span class="fact-icon">📍</span>
+            <div>
+              <strong>Location</strong>
+              <p>Chicago, IL</p>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🎓</span>
+            <div>
+              <strong>Degree</strong>
+              <p>BS Computer Science, Lewis University</p>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">💼</span>
+            <div>
+              <strong>Current Role</strong>
+              <p>KeepStock Support Analyst, Grainger</p>
+            </div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🌐</span>
+            <div>
+              <strong>Languages</strong>
+              <p>English &amp; Tagalog</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-up">Technical Skills</h2>
+      <div class="skills-grid fade-up">
+
+        <div class="skill-card">
+          <h3 class="skill-card-title">
+            <span class="skill-icon">💻</span> Programming Languages
+          </h3>
+          <div class="tags">
+            <span class="tag">C#</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">C / C++</span>
+            <span class="tag">SQL</span>
+            <span class="tag">PHP</span>
+            <span class="tag">Ruby</span>
+            <span class="tag">Swift</span>
+            <span class="tag">Kotlin</span>
+            <span class="tag">VB.Net</span>
+            <span class="tag">Assembly</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-card-title">
+            <span class="skill-icon">🌐</span> Web Development
+          </h3>
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">React</span>
+            <span class="tag">React Native</span>
+            <span class="tag">ASP.NET</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Python-Django</span>
+            <span class="tag">Ruby on Rails</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">Razor Pages</span>
+            <span class="tag">MVC</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-card-title">
+            <span class="skill-icon">🗄️</span> Data &amp; Storage
+          </h3>
+          <div class="tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">SQL Server</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Oracle</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">NoSQL</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Spark</span>
+            <span class="tag">Hadoop</span>
+            <span class="tag">Power BI</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-card-title">
+            <span class="skill-icon">🔧</span> Dev &amp; Monitoring Tools
+          </h3>
+          <div class="tags">
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">Datadog</span>
+            <span class="tag">Jira</span>
+            <span class="tag">ServiceNow</span>
+            <span class="tag">GitHub Copilot</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Blender</span>
+            <span class="tag">Unity</span>
+            <span class="tag">Adobe Photoshop</span>
+            <span class="tag">Linux / Unix</span>
+            <span class="tag">VMware</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title fade-up">Projects</h2>
+      <div class="projects-grid fade-up">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-badge">Capstone</span>
+            <h3>SakayGo</h3>
+            <p class="project-subtitle">Rideshare App for Elderly &amp; Disabled Users</p>
+          </div>
+          <div class="project-body">
+            <ul>
+              <li>Designed and developed a React Native mobile app to assist elderly and people with disabilities in accessing transportation for medical appointments and prescriptions</li>
+              <li>Integrated Google Maps API for real-time navigation and ride tracking</li>
+              <li>Implemented user-friendly GUI with Firebase backend for authentication and data storage</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <div class="tags">
+              <span class="tag tag-accent">React Native</span>
+              <span class="tag tag-accent">Firebase</span>
+              <span class="tag tag-accent">Google Maps API</span>
+              <span class="tag tag-accent">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-badge">Live Site</span>
+            <h3>Winterinnsamal.com</h3>
+            <p class="project-subtitle">Website Development &amp; Maintenance</p>
+          </div>
+          <div class="project-body">
+            <ul>
+              <li>Contributed to the development of a live website using HTML, CSS, and JavaScript</li>
+              <li>Supported real-time updates and debugging of visual components</li>
+              <li>Translated design mockups into responsive, cross-device compatible layouts</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <div class="tags">
+              <span class="tag tag-accent">HTML5</span>
+              <span class="tag tag-accent">CSS3</span>
+              <span class="tag tag-accent">JavaScript</span>
+              <span class="tag tag-accent">Responsive Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-badge">QA</span>
+            <h3>Manual QA Simulation</h3>
+            <p class="project-subtitle">Independent Quality Assurance Project</p>
+          </div>
+          <div class="project-body">
+            <ul>
+              <li>Tested a sample web application manually using structured test scripts</li>
+              <li>Logged and tracked issues in JIRA; verified outputs against expected results</li>
+              <li>Documented test cases and performed exploratory testing to uncover edge cases</li>
+            </ul>
+          </div>
+          <div class="project-footer">
+            <div class="tags">
+              <span class="tag tag-accent">JIRA</span>
+              <span class="tag tag-accent">Manual Testing</span>
+              <span class="tag tag-accent">Test Cases</span>
+              <span class="tag tag-accent">QA</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-up">Experience</h2>
+      <div class="timeline fade-up">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>KeepStock Support Analyst</h3>
+                <p class="timeline-company">Grainger &mdash; Chicago, IL</p>
+              </div>
+              <span class="timeline-date">Aug 2025 &ndash; Present</span>
+            </div>
+            <ul>
+              <li>Support enterprise inventory management systems and connected devices, troubleshooting backend services, APIs, integrations, and hardware/software interactions</li>
+              <li>Investigate and resolve production issues using log analysis, SQL queries, and monitoring tools such as Datadog to identify root causes and restore service</li>
+              <li>Collaborate with engineering and product teams to implement long-term technical solutions</li>
+              <li>Leverage AI-assisted development tools (GitHub Copilot, ChatGPT, Claude) to accelerate debugging, documentation, and workflow efficiency</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot timeline-dot-muted"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Deli Clerk</h3>
+                <p class="timeline-company">Danada Square &mdash; Wheaton, IL</p>
+              </div>
+              <span class="timeline-date">Aug 2019 &ndash; Apr 2025</span>
+            </div>
+            <ul>
+              <li>Delivered high-quality customer service while managing high-volume requests in a fast-paced environment</li>
+              <li>Prioritized tasks and improved workflow efficiency under pressure</li>
+              <li>Developed strong communication, conflict-resolution, and teamwork skills applied in every subsequent professional role</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title fade-up">Education</h2>
+      <div class="edu-grid fade-up">
+
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-body">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p class="edu-school">Lewis University &mdash; Romeoville, IL</p>
+            <p class="edu-date">Graduated May 2025</p>
+            <ul class="edu-highlights">
+              <li>Data Structures &amp; Algorithms, Database Systems, Software Engineering, Operating Systems, Web Development</li>
+              <li>Hands-on full-stack development, RESTful APIs, and database design</li>
+              <li>Capstone: Production-style mobile application using React Native &amp; Firebase</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon">📜</div>
+          <div class="edu-body">
+            <h3>Certifications</h3>
+            <p class="edu-school">Professional Development</p>
+            <ul class="cert-list">
+              <li>Data Analytics &amp; Visualization</li>
+              <li>Web Client Developer Certificate</li>
+              <li>Web Programmer Certificate</li>
+              <li>Microsoft Office Specialist: Excel</li>
+              <li>Microsoft PL-300 (Power BI)</li>
+              <li>IBM Data Science</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-up">Get In Touch</h2>
+      <p class="contact-intro fade-up">
+        I'm open to new opportunities, collaborations, and conversations. Feel free to reach out!
+      </p>
+      <div class="contact-links fade-up">
+        <a href="mailto:clowie.moscare@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </div>
+          <strong>Email</strong>
+          <span>clowie.moscare@gmail.com</span>
+        </a>
+        <a href="https://github.com/clowiemoscare" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </div>
+          <strong>GitHub</strong>
+          <span>github.com/clowiemoscare</span>
+        </a>
+        <a href="https://linkedin.com/in/clowie-moscare" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </div>
+          <strong>LinkedIn</strong>
+          <span>linkedin.com/in/clowie-moscare</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>Clowie Moscare &copy; 2026 &mdash; Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
